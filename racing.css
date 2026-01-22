@@ -1,0 +1,93 @@
+
+        /* Basic CSS for the F1-inspired look */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Navigation Bar (simplified for this example) */
+        .navbar {
+            background-color: #000;
+            color: white;
+            padding: 15px 5%;
+            font-size: 24px;
+            font-weight: bold;
+            color: #e10600; /* F1 Red */
+            text-align: left;
+        }
+
+        /* Hero Section - The main banner */
+        .hero-car {
+            background-color: #1a1a1a;
+            color: white;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .hero-car h1 {
+            font-size: 4em;
+            color: #ff4500; /* Bright orange/red */
+            margin-bottom: 10px;
+        }
+        
+        .hero-car p {
+            font-size: 1.2em;
+            opacity: 0.8;
+        }
+
+        /* Main Content Section */
+        .specs-container {
+            padding: 40px 10%;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .specs-container h2 {
+            font-size: 2.5em;
+            color: #000;
+            text-align: center;
+            margin-bottom: 30px;
+            border-bottom: 3px solid #e10600;
+            display: inline-block;
+            padding-bottom: 5px;
+            width: auto;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+
+        /* Specification Cards */
+        .spec-card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 20px 0;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            border-left: 5px solid #e10600; /* Red accent stripe */
+        }
+        
+        .spec-icon {
+            font-size: 30px;
+            margin-right: 20px;
+            color: #e10600;
+        }
+
+        .spec-details h3 {
+            margin: 0 0 5px 0;
+            color: #1a1a1a;
+            font-size: 1.5em;
+        }
+        
+        .spec-details p {
+            margin: 0;
+            color: #666;
+        }
+    
